@@ -1,0 +1,16 @@
+.dashboard-left {
+    width: 50%;
+    float: left;
+}
+
+.dashboard-right {
+    width: 50%;
+}
+
+.digital {
+    font-family: sans-serif, sans-serif;
+}
+
+.clock {
+    font-size: 50px !important;
+}

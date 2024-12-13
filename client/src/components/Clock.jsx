@@ -25,7 +25,7 @@ export default function Clock () {
 
     return (
         <div className="clock-component digital">
-            <h2 className="current-time" style={{ fontSize: '24px', fontWeight: 'bold', textAlign: 'center'}}>
+            <h2 className="current-time" style={{ fontWeight: 'bold', textAlign: 'center'}}>
                     {currentTime}
             </h2>
         </div>
