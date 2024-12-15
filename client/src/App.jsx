@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Clock from "./components/Clock";
 
 import './style/dashboard-left.css';
+import FotMob from "./components/FotMob";
 
 function App() {
   const [message, setMessage] = useState('');
@@ -17,6 +18,9 @@ function App() {
           <div className="dashboard-left">
               <div className="clock digital">
                   <Clock/>
+              </div>
+              <div className="fotmob">
+                  <FotMob/>
               </div>
 
           </div>
